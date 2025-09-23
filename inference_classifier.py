@@ -4,7 +4,7 @@ import mediapipe as mp
 import numpy as np
 import time
 
-model_dict = pickle.load(open('./model_new.p', 'rb'))
+model_dict = pickle.load(open('./models/model_new.p', 'rb'))
 model = model_dict['model']
 
 cap = cv2.VideoCapture(0)
